@@ -1,138 +1,166 @@
 @charset "utf-8";
 /* CSS Document */
-
 @import url("https://fonts.googleapis.com/css?family=Nixie+One");
+
 body {
-	box-sizing: box-border;
-	margin: 0 auto;
-	padding: 0;
-	background-color: black;
-	font-family: 'Nixie One', 'Arial';
-	color: #b15419;
+  margin: 0 auto;
+  padding: 0;
+  background-color:black;
+  font-family: 'Nixie One', 'Arial';
+  color: #b15419;
 }
+
 .header-box {
-	grid-template-columns: repeat(12, 100px);
-	grid-template-rows: auto;
-	grid-gap: 20px;
-	background-color: black;
-	max-width: 950px;
-	margin-right: auto;
-	margin-left: auto;
+  grid-template-columns: repeat(12, 100px);
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  background-color: black;
+  max-width: 950px;
+  margin-right: auto;
+  margin-left: auto;
 }
+
 .header-content {
-	padding: 1rem;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: center;
+  padding: 1rem;  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;  
 }
+
 .name {
-	margin: 0;
-	padding: 0;
-	display: flex;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
+
 .header-title h4 {
-	font-weight: 400;
-	color: #999;
+  font-weight: 400;
+  color: #999;
 }
+
 .mainImage {
-	position: relative;
-	background-position: center;
-	background-size: 75%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+  position: relative;
+  background-position:center;
+  background-size:75%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+
 .mainImage {
-	background-image: url("https://www.lewiscreekglassworks.com/portfolioMain.jpg");
-	border-style: solid;
-	border-width: 0.5px 0px 0px 0px;
-	border-color: #b55419;
-	min-height: 80vh;
-	max-width: 100%;
-	color: white;
-	display: flex;
-	justify-content: center;
-	margin-bottom: 4em;
+  background-image: url("https://www.lewiscreekglassworks.com/portfolioMain.jpg");
+  border-style:solid;
+        border-width: 0.5px 0px 0px 0px;
+        border-color: #b55419;
+  min-height: 80vh;
+  max-width:100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4em;
 }
+
 .mainImage-content {
-	text-align: center;
+  text-align: center;
 }
+
 .mainImage-content h3 {
-	font-size: 3em;
+  font-size: 3em;
+
+
+
+
 }
-h2>span {
-	font-weight: bold;
+
+h2> span {
+  font-weight:bold;
+
 }
-.section-title h5 {
-	font-weight: 100;
-	font-size: 2em;
-	text-align: center;
-	margin: 0.5em;
+
+.section-title h5{
+  font-weight: 100;
+  font-size: 2em;
+  text-align: center;
+  margin: 0.5em;
 }
+
 .section-title-line {
-	width: 100%;
-	height: 0.5px;
-	background: #b15419;
-	border: 0;
-	margin-top: 0;
-	margin-bottom: 2em;
+  width: 100%;
+  height: 0.5px;
+  background: #b15419;
+  border: 0;
+  margin-top: 0;
+  margin-bottom: 2em;
 }
+
 .featured {
-	max-width: 900px;
-	margin-right: auto;
-	margin-left: auto;
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
 }
+
 .project-group {
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
+
 .project {
-	width: 32%;
-	height: auto;
-	margin: 5px;
-	order: 3;
+  width: 32%;
+  height: auto;
+  margin: 5px;
+  order: 3;
 }
+
 .project img {
-	width: 75%;
-	height: auto;
-	margin: 20px;
+  width: 75%;
+  height: auto;
+  margin: 20px;
 }
+
 .project-title {
-	font-weight: 700;
-	text-align: center;
-}
+  font-weight: 700;
+  text-align: center;
+  }
+
 .project p {
-	font-weight: 400;
-	color: #999;
-	text-align: center;
+  font-weight: 400;
+  color: #999;
+  text-align: center;
 }
+
 .social {
-	margin: 4em 0;
-	max-width: 950px;
-	margin-right: auto;
-	margin-left: auto;
+  margin: 4em 0;
+  max-width: 950px;
+  margin-right: auto;
+  margin-left: auto;
 }
-a:link {
-	color: #b15419;
+
+ a:link {
+    color:#b15419 ;
 }
 a:visited {
-	color: #b15419;
+    color:#b15419 ;
 }
+
 a:hover {
-	color: #b15419;
+    color: #b15419;
 }
+
 a:active {
-	color: #b15419;
+    color: #b15419;
 }
+
 .social-list {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	display: flex;
-	justify-content: center;
-	color: #b15419
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  color: #b15419
 }
+
 .social-list li {
-	margin: 0 3em;
+  margin: 0 3em;
 }
+
